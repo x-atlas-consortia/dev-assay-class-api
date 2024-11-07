@@ -6,12 +6,13 @@ This simple, standalone service is designed for quick changes to the assay class
   - `/assayclasses/<assay-code>?application_context=HUBMAP`
 
 ## JSON backing file and releasing to UBKG
-The [assayclasses.json file](https://github.com/x-atlas-consortia/dev-assay-class-api/blob/development/assayclasses.json) file is read directly by this service to form the responses.  This file can be changed directly in GitHub (in the `development` branch only) to test changes to the associated rule chain/assay class information that normally is sourced from UBKG. To develop using this service and eventually release to UBKG follow this procedure:
-  - Update the [assayclasses.json file](https://github.com/x-atlas-consortia/dev-assay-class-api/blob/development/assayclasses.json) directly by merging changes into the `development` branch. Test locally or using the HuBMAP DEV infrastructure where this dev service has been put in place.
-  - After successful tests on the DEV infrastructure make a PR to `main` with the changes in `assayclasses.json`. Add Alan Simmons as a reviewer on the PR.
-  - The changes will be added to UBKG Neo4j and released to the UBKG DEV instance and can be accessed at `https://ontology-api.dev.hubmapconsortium.org/`.
-  - Test the changes on the HuBMAP TEST infrastructure (TEST infrastructure is connected to UBKG DEV instance).
-  - After successful testing on TEST the changes to UBKG Neo4j will be released to PROD.
+The [assayclasses.json file](https://github.com/x-atlas-consortia/dev-assay-class-api/blob/development/assayclasses.json) file is read directly by this service to form the responses. This file can be changed directly in GitHub (in the `development` branch only) to test changes to the associated rule chain/assay class information that normally is sourced from UBKG. To develop using this service and eventually release to UBKG follow this procedure:
+- Create a new branch off `main` and update the `assayclasses.json file` directly
+- Create a PR to `development` and merge the changes into the `development` branch. Test locally or using the HuBMAP DEV infrastructure where this dev service is available at  `http://gateway.dev.hubmapconsortium.org:8181/assayclasses`.
+- After successful tests on the DEV infrastructure make a PR to `main` with the changes in `assayclasses.json`. Add Alan Simmons as a reviewer on the PR.
+- Alan will add the changes to UBKG Neo4j. Zhou will release to the UBKG DEV instance and can be accessed at `https://ontology-api.dev.hubmapconsortium.org/`.
+- Test the changes on the HuBMAP TEST infrastructure (TEST infrastructure is connected to UBKG DEV instance).
+- After successful testing on TEST the changes to UBKG Neo4j will be released to PROD.
 
 
 ### Running the service locally
