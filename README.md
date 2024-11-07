@@ -27,9 +27,9 @@ See below for instructions to run with Docker
 Both endpoints require the `application_context=HUBMAP` parameter.  (A future version will allow SENNET context as well, which will read results from a different file).
 
 ### Endpoints
-The `/assayclasses` endpoint simply returns the contents of the [assayclasses.json file](https://github.com/x-atlas-consortia/hs-ontology-api/blob/main/dev/assayclasses.json) as a json response.
+The `/assayclasses` endpoint simply returns the contents of the [assayclasses.json file](https://github.com/x-atlas-consortia/dev-assay-class-api/blob/development/assayclasses.json) as a json response.
 
-The `/assayclasses/<assay-code>` endpoint searches the same [assayclasses.json file](https://raw.githubusercontent.com/x-atlas-consortia/hs-ontology-api/dev-integrate/dev/assayclasses.json) for an assayclass item matching `rule_description.code` and returns the full matching assayclass item as a json response.  If the code is not found a 404 is returned. For example if `/assayclasses/C200001?application_context=HUBMAP` is called the return value is:
+The `/assayclasses/<assay-code>` endpoint searches the same [assayclasses.json file](https://github.com/x-atlas-consortia/dev-assay-class-api/blob/development/assayclasses.json) for an assayclass item matching `rule_description.code` and returns the full matching assayclass item as a json response.  If the code is not found a 404 is returned. For example if `/assayclasses/C200001?application_context=HUBMAP` is called the return value is:
 
 ```
 {
