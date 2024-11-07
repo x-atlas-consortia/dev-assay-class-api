@@ -854,6 +854,8 @@
       "process_state": "derived",
       "tbl_schema": null,
       "vitessce_hints": [
+        "segmentation_mask",
+        "is_image",
         "pyramid"
       ]
     }
