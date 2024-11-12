@@ -2693,7 +2693,7 @@
       "vitessce_hints": [
         "pyramid",
         "is_image",
-        "segmentation-mask"
+        "segmentation_mask"
       ]
     }
   },
