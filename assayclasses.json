@@ -2681,7 +2681,7 @@
     "value": {
         "active_status": "active",
         "asssaytype": "salmon_rnaseq_10x",
-        "contains_full_genetic_sequences": false
+        "contains_full_genetic_sequences": false,
         "dataset_type": "RNAseq",
         "description": "scRNAseq (10x Genomics) [Salmon]",
         "dir_schema": null,
@@ -2696,7 +2696,7 @@
           "json_based"
         ]
     }
-  }
+  },
   {
     "rule_description": {
       "application_context": "HUBMAP",
