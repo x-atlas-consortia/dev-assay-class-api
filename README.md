@@ -6,12 +6,13 @@ This simple, standalone service is designed for quick changes to the assay class
   - `/assayclasses/<assay-code>?application_context=HUBMAP`
 
 ## JSON backing file and releasing to UBKG
-The [assayclasses.json file](https://github.com/x-atlas-consortia/dev-assay-class-api/blob/development/assayclasses.json) file is read directly by this service to form the responses.  This file can be changed directly in GitHub (in the `development` branch only) to test changes to the associated rule chain/assay class information that normally is sourced from UBKG. To develop using this service and eventually release to UBKG follow this procedure:
-  - Update the [assayclasses.json file](https://github.com/x-atlas-consortia/dev-assay-class-api/blob/development/assayclasses.json) directly by merging changes into the `development` branch. Test locally or using the HuBMAP DEV infrastructure where this dev service has been put in place.
-  - After successful tests on the DEV infrastructure make a PR to `main` with the changes in `assayclasses.json`. Add Alan Simmons as a reviewer on the PR.
-  - The changes will be added to UBKG Neo4j and released to the UBKG DEV instance and can be accessed at `https://ontology-api.dev.hubmapconsortium.org/`.
-  - Test the changes on the HuBMAP TEST infrastructure (TEST infrastructure is connected to UBKG DEV instance).
-  - After successful testing on TEST the changes to UBKG Neo4j will be released to PROD.
+The [assayclasses.json file](https://github.com/x-atlas-consortia/dev-assay-class-api/blob/development/assayclasses.json) file is read directly by this service to form the responses. This file can be changed directly in GitHub (in the `development` branch only) to test changes to the associated rule chain/assay class information that normally is sourced from UBKG. To develop using this service and eventually release to UBKG follow this procedure:
+- Create a new branch off `main` and update the `assayclasses.json file` directly
+- Create a PR to `development` and merge the changes into the `development` branch. Test locally or using the HuBMAP DEV infrastructure where this dev service is available at  `http://gateway.dev.hubmapconsortium.org:8181/assayclasses`.
+- After successful tests on the DEV infrastructure make a PR to `main` with the changes in `assayclasses.json`. Add Alan Simmons as a reviewer on the PR.
+- Alan will add the changes to UBKG Neo4j. Zhou will release to the UBKG DEV instance and can be accessed at `https://ontology-api.dev.hubmapconsortium.org/`.
+- Test the changes on the HuBMAP TEST infrastructure (TEST infrastructure is connected to UBKG DEV instance).
+- After successful testing on TEST the changes to UBKG Neo4j will be released to PROD.
 
 
 ### Running the service locally
@@ -27,9 +28,9 @@ See below for instructions to run with Docker
 Both endpoints require the `application_context=HUBMAP` parameter.  (A future version will allow SENNET context as well, which will read results from a different file).
 
 ### Endpoints
-The `/assayclasses` endpoint simply returns the contents of the [assayclasses.json file](https://github.com/x-atlas-consortia/hs-ontology-api/blob/main/dev/assayclasses.json) as a json response.
+The `/assayclasses` endpoint simply returns the contents of the [assayclasses.json file](https://github.com/x-atlas-consortia/dev-assay-class-api/blob/development/assayclasses.json) as a json response.
 
-The `/assayclasses/<assay-code>` endpoint searches the same [assayclasses.json file](https://raw.githubusercontent.com/x-atlas-consortia/hs-ontology-api/dev-integrate/dev/assayclasses.json) for an assayclass item matching `rule_description.code` and returns the full matching assayclass item as a json response.  If the code is not found a 404 is returned. For example if `/assayclasses/C200001?application_context=HUBMAP` is called the return value is:
+The `/assayclasses/<assay-code>` endpoint searches the same [assayclasses.json file](https://github.com/x-atlas-consortia/dev-assay-class-api/blob/development/assayclasses.json) for an assayclass item matching `rule_description.code` and returns the full matching assayclass item as a json response.  If the code is not found a 404 is returned. For example if `/assayclasses/C200001?application_context=HUBMAP` is called the return value is:
 
 ```
 {

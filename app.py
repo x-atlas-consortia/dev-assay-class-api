@@ -59,14 +59,11 @@ def get_assayclasses() -> dict:
     return json_dict
 
 
-assayclasses_list: dict = get_assayclasses()
-
-
 def find_assayclass_with_rule_description_code(code: str):
     """
     Find the assayclass corresponding the rule_description code given or return None.
     """
-    for ad in assayclasses_list:
+    for ad in get_assayclasses():
         if "rule_description" in ad and "code" in ad["rule_description"] and ad["rule_description"]["code"] == code:
             return ad
     return None
@@ -113,7 +110,7 @@ def assayclass():
     """
     check_for_valid_application_context()
 
-    return Response(json.dumps(assayclasses_list), 200, mimetype='application/json')
+    return Response(json.dumps(get_assayclasses()), 200, mimetype='application/json')
 
 
 # For development/testing only
