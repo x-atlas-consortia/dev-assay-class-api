@@ -220,7 +220,7 @@
       "process_state": "derived",
       "tbl_schema": null,
       "vitessce_hints": [
-        "json-based",
+        "json_based",
         "codex",
         "is_tiled",
         "is_image"
@@ -854,6 +854,8 @@
       "process_state": "derived",
       "tbl_schema": null,
       "vitessce_hints": [
+        "segmentation_mask",
+        "is_image",
         "pyramid"
       ]
     }
@@ -1109,7 +1111,7 @@
       "assaytype": "scRNAseq-10xGenomics-v3",
       "contains_full_genetic_sequences": false,
       "dataset_type": "RNAseq",
-      "description": null,
+      "description": "scRNAseq (10x Genomics v3)",
       "dir_schema": "scrnaseq-v0",
       "is_multiassay": false,
       "must_contain": [],
@@ -1900,7 +1902,7 @@
       "assaytype": "scRNAseq-10xGenomics-v3",
       "contains_full_genetic_sequences": false,
       "dataset_type": "RNAseq",
-      "description": null,
+      "description": "scRNAseq (10x Genomics v3)",
       "dir_schema": "rnaseq-v2",
       "is_multiassay": false,
       "must_contain": [],
@@ -2664,10 +2666,35 @@
       "process_state": "derived",
       "tbl_schema": null,
       "vitessce_hints": [
-        "json-based",
+        "json_based",
         "rna",
         "is_sc"
       ]
+    }
+  },
+  {
+    "rule_description": {
+        "application_context": "HUBMAP",
+        "code": "C202010",
+        "name": "derived salmon_rnaseq_10x json-based"
+    },
+    "value": {
+        "active_status": "active",
+        "asssaytype": "salmon_rnaseq_10x",
+        "contains_full_genetic_sequences": false,
+        "dataset_type": "RNAseq",
+        "description": "scRNAseq (10x Genomics) [Salmon]",
+        "dir_schema": null,
+        "is_multiassay": false,
+        "must_contain": [],
+        "pipeline_shorthand": "Salmon",
+        "process_state": "derived",
+        "tbl_schema": null,
+        "vitessce_hints": [
+          "rna",
+          "is_sc",
+          "json_based"
+        ]
     }
   },
   {
@@ -2691,7 +2718,7 @@
       "vitessce_hints": [
         "pyramid",
         "is_image",
-        "segmentation-mask"
+        "segmentation_mask"
       ]
     }
   },
