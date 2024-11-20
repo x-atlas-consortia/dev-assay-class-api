@@ -2680,7 +2680,7 @@
     },
     "value": {
         "active_status": "active",
-        "asssaytype": "salmon_rnaseq_10x",
+        "assaytype": "salmon_rnaseq_10x",
         "contains_full_genetic_sequences": false,
         "dataset_type": "RNAseq",
         "description": "scRNAseq (10x Genomics) [Salmon]",
