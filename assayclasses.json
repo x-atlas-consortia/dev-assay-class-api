@@ -263,7 +263,7 @@
       "active_status": "active",
       "assaytype": "DART-FISH",
       "contains_full_genetic_sequences": false,
-      "dataset_type": "DARTFish",
+      "dataset_type": "DART-FISH",
       "description": "DART-FISH",
       "dir_schema": null,
       "is_multiassay": false,
