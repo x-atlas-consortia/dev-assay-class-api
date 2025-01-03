@@ -2717,7 +2717,8 @@
       "vitessce_hints": [
         "pyramid",
         "is_image",
-        "segmentation_mask"
+        "segmentation_mask",
+        "epic"
       ]
     }
   },
