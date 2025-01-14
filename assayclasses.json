@@ -872,7 +872,7 @@
       "contains_full_genetic_sequences": false,
       "dataset_type": "UNKNOWN",
       "description": "Publication Data",
-      "dir_schema": null,
+      "dir_schema": "publications-v2",
       "is_multiassay": false,
       "must_contain": [],
       "pipeline_shorthand": null,
