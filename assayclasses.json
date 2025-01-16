@@ -977,7 +977,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "SNARE-RNAseq2",
-      "contains_full_genetic_sequences": false,
+      "contains_full_genetic_sequences": true,
       "dataset_type": "RNAseq",
       "description": "snRNAseq (SNARE-seq2)",
       "dir_schema": "scrnaseq-v0",
@@ -1109,7 +1109,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "scRNAseq-10xGenomics-v3",
-      "contains_full_genetic_sequences": false,
+      "contains_full_genetic_sequences": true,
       "dataset_type": "RNAseq",
       "description": "scRNAseq (10x Genomics v3)",
       "dir_schema": "scrnaseq-v0",
@@ -1397,7 +1397,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "snRNAseq-10xGenomics-v3",
-      "contains_full_genetic_sequences": false,
+      "contains_full_genetic_sequences": true,
       "dataset_type": "RNAseq",
       "description": "snRNAseq (10x Genomics v3)",
       "dir_schema": "scrnaseq-v0",
@@ -1658,7 +1658,7 @@
       "contains_full_genetic_sequences": true,
       "dataset_type": "Visium (no probes)",
       "description": "Visium (no probes)",
-      "dir_schema": "visium-no-probes-v2",
+      "dir_schema": "visium-no-probes-v3",
       "is_multiassay": true,
       "must_contain": [
         "RNAseq",
@@ -1679,10 +1679,10 @@
     "value": {
       "active_status": "active",
       "assaytype": "visium-with-probes",
-      "contains_full_genetic_sequences": false,
+      "contains_full_genetic_sequences": true,
       "dataset_type": "Visium (with probes)",
       "description": "Visium (with probes)",
-      "dir_schema": null,
+      "dir_schema": "visium-with-probes-v3",
       "is_multiassay": true,
       "must_contain": [
         "RNAseq (with probes)",
@@ -1709,7 +1709,7 @@
       "dir_schema": "geomx-ngs-v2",
       "is_multiassay": true,
       "must_contain": [
-        "RNAseq"
+        "RNAseq (with probes)"
       ],
       "pipeline_shorthand": null,
       "process_state": "primary",
@@ -1750,7 +1750,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "multiome-snare-seq2",
-      "contains_full_genetic_sequences": false,
+      "contains_full_genetic_sequences": true,
       "dataset_type": "SNARE-seq2",
       "description": "SNARE-seq2",
       "dir_schema": "snareseq2-v2",
@@ -1774,7 +1774,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "sciRNAseq",
-      "contains_full_genetic_sequences": false,
+      "contains_full_genetic_sequences": true,
       "dataset_type": "RNAseq",
       "description": "sciRNAseq",
       "dir_schema": "rnaseq-v2",
@@ -1795,7 +1795,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "SNARE-RNAseq2",
-      "contains_full_genetic_sequences": false,
+      "contains_full_genetic_sequences": true,
       "dataset_type": "RNAseq",
       "description": "snRNAseq (SNARE-seq2)",
       "dir_schema": "rnaseq-v2",
@@ -1816,7 +1816,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "rnaseq-visium-no-probes",
-      "contains_full_genetic_sequences": false,
+      "contains_full_genetic_sequences": true,
       "dataset_type": "RNAseq",
       "description": "Capture bead RNAseq (10x Genomics v3)",
       "dir_schema": "rnaseq-v2",
@@ -1837,9 +1837,9 @@
     "value": {
       "active_status": "active",
       "assaytype": "scRNAseq-visium-with-probes",
-      "contains_full_genetic_sequences": false,
+      "contains_full_genetic_sequences": true,
       "dataset_type": "RNAseq (with probes)",
-      "description": "Visium RNAseq with probes",
+      "description": "Visium RNAseq (with probes)",
       "dir_schema": "rnaseq-with-probes-v2",
       "is_multiassay": false,
       "must_contain": [],
@@ -1858,7 +1858,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "scRNAseq-10xGenomics-v2",
-      "contains_full_genetic_sequences": false,
+      "contains_full_genetic_sequences": true,
       "dataset_type": "RNAseq",
       "description": "scRNAseq (10x Genomics v2)",
       "dir_schema": "rnaseq-v2",
@@ -1879,7 +1879,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "snRNAseq-10xGenomics-v2",
-      "contains_full_genetic_sequences": false,
+      "contains_full_genetic_sequences": true,
       "dataset_type": "RNAseq",
       "description": "snRNAseq (10x Genomics v2)",
       "dir_schema": "rnaseq-v2",
@@ -1900,7 +1900,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "scRNAseq-10xGenomics-v3",
-      "contains_full_genetic_sequences": false,
+      "contains_full_genetic_sequences": true,
       "dataset_type": "RNAseq",
       "description": "scRNAseq (10x Genomics v3)",
       "dir_schema": "rnaseq-v2",
@@ -1921,7 +1921,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "snRNAseq-10xGenomics-v3",
-      "contains_full_genetic_sequences": false,
+      "contains_full_genetic_sequences": true,
       "dataset_type": "RNAseq",
       "description": "snRNAseq (10x Genomics v3)",
       "dir_schema": "rnaseq-v2",
@@ -1942,7 +1942,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "snATACseq",
-      "contains_full_genetic_sequences": false,
+      "contains_full_genetic_sequences": true,
       "dataset_type": "ATACseq",
       "description": "snATACseq",
       "dir_schema": "atacseq-v2",
@@ -1963,7 +1963,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "SNARE-ATACseq2",
-      "contains_full_genetic_sequences": false,
+      "contains_full_genetic_sequences": true,
       "dataset_type": "ATACseq",
       "description": "snATACseq (SNARE-seq2)",
       "dir_schema": "atacseq-v2",
@@ -1984,7 +1984,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "sn_atac_seq?",
-      "contains_full_genetic_sequences": false,
+      "contains_full_genetic_sequences": true,
       "dataset_type": "ATACseq",
       "description": "snATACseq-multiome",
       "dir_schema": "atacseq-v2",
@@ -2005,7 +2005,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "bulk-RNA",
-      "contains_full_genetic_sequences": false,
+      "contains_full_genetic_sequences": true,
       "dataset_type": "RNAseq",
       "description": "Bulk RNAseq",
       "dir_schema": "rnaseq-v2",
@@ -2026,7 +2026,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "ATACseq-bulk",
-      "contains_full_genetic_sequences": false,
+      "contains_full_genetic_sequences": true,
       "dataset_type": "ATACseq",
       "description": "Bulk ATACseq",
       "dir_schema": "atacseq-v2",
@@ -2047,7 +2047,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "sciATACseq",
-      "contains_full_genetic_sequences": false,
+      "contains_full_genetic_sequences": true,
       "dataset_type": "ATACseq",
       "description": "sciATACseq",
       "dir_schema": "atacseq-v2",
@@ -2562,7 +2562,7 @@
       "active_status": "active",
       "assaytype": "10x-multiome",
       "contains_full_genetic_sequences": false,
-      "dataset_type": "RNAseq",
+      "dataset_type": "10X Multiome",
       "description": "10X Multiome [Salmon + ArchR + Muon]",
       "dir_schema": null,
       "is_multiassay": true,
