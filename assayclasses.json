@@ -1698,11 +1698,11 @@
     "rule_description": {
       "application_context": "HUBMAP",
       "code": "C200760",
-      "name": "DCWG geomx_ngs?"
+      "name": "DCWG geomx_ngs"
     },
     "value": {
       "active_status": "inactive",
-      "assaytype": "geomx_ngs?",
+      "assaytype": "geomx_ngs",
       "contains_full_genetic_sequences": true,
       "dataset_type": "GeoMx (NGS)",
       "description": "GeoMx (NGS)",
