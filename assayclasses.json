@@ -1979,11 +1979,11 @@
     "rule_description": {
       "application_context": "HUBMAP",
       "code": "C200890",
-      "name": "DCWG sn_atac_seq?"
+      "name": "DCWG sn_atac_seq"
     },
     "value": {
       "active_status": "active",
-      "assaytype": "sn_atac_seq?",
+      "assaytype": "sn_atac_seq",
       "contains_full_genetic_sequences": true,
       "dataset_type": "ATACseq",
       "description": "snATACseq-multiome",
