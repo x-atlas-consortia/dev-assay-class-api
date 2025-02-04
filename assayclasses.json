@@ -2633,10 +2633,10 @@
     },
     "value": {
       "active_status": "active",
-      "assaytype": "MS",
+      "assaytype": "LC-MS",
       "contains_full_genetic_sequences": false,
       "dataset_type": "LC-MS",
-      "description": "MS",
+      "description": "LC-MS",
       "dir_schema": "lcms-v0",
       "is_multiassay": false,
       "must_contain": [],
