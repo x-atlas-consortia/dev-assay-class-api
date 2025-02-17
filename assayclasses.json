@@ -1979,11 +1979,11 @@
     "rule_description": {
       "application_context": "HUBMAP",
       "code": "C200890",
-      "name": "DCWG sn_atac_seq?"
+      "name": "DCWG sn_atac_seq"
     },
     "value": {
       "active_status": "active",
-      "assaytype": "sn_atac_seq?",
+      "assaytype": "sn_atac_seq",
       "contains_full_genetic_sequences": true,
       "dataset_type": "ATACseq",
       "description": "snATACseq-multiome",
@@ -2635,8 +2635,8 @@
       "active_status": "active",
       "assaytype": "MS",
       "contains_full_genetic_sequences": false,
-      "dataset_type": "LC-MS",
-      "description": "MS",
+      "dataset_type": "MS Lipidomics",
+      "description": "MS Lipidomics",
       "dir_schema": "lcms-v0",
       "is_multiassay": false,
       "must_contain": [],
