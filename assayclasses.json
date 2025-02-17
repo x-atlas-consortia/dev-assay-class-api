@@ -2633,7 +2633,7 @@
     },
     "value": {
       "active_status": "active",
-      "assaytype": "LC-MS",
+      "assaytype": "MS",
       "contains_full_genetic_sequences": false,
       "dataset_type": "MS Lipidomics",
       "description": "MS Lipidomics",
