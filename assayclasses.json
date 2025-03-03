@@ -2776,7 +2776,7 @@
       "contains_full_genetic_sequences": true,
       "dataset_type": "Xenium",
       "description": "Xenium",
-      "dir_schema": "xenium-v2",
+      "dir_schema": "xenium-v3",
       "is_multiassay": false,
       "must_contain": [],
       "pipeline_shorthand": null,
