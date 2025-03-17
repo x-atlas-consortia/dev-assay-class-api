@@ -2809,5 +2809,26 @@
         "pyramid"
       ]
     }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
+      "code": "C202070",
+      "name": "DCWG CyTOF"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "cytof",
+      "contains_full_genetic_sequences": false,
+      "dataset_type": "CyTOF",
+      "description": "CyTOF",
+      "dir_schema": "cytof-v2",
+      "is_multiassay": false,
+      "must_contain": [],
+      "pipeline_shorthand": null,
+      "process_state": "primary",
+      "tbl_schema": null,
+      "vitessce_hints": []
+    }
   }
 ]
