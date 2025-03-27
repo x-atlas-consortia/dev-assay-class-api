@@ -2851,5 +2851,26 @@
       "tbl_schema": null,
       "vitessce_hints": []
     }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
+      "code": "C202090",
+      "name": "DCWG DBiT-seq"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "dbitseq",
+      "contains_full_genetic_sequences": true,
+      "dataset_type": "DBiT-seq",
+      "description": "DBiT-seq",
+      "dir_schema": "dbitseq-v2",
+      "is_multiassay": false,
+      "must_contain": [],
+      "pipeline_shorthand": null,
+      "process_state": "primary",
+      "tbl_schema": null,
+      "vitessce_hints": []
+    }
   }
 ]
