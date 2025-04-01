@@ -2872,5 +2872,26 @@
       "tbl_schema": null,
       "vitessce_hints": []
     }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
+      "code": "C202100",
+      "name": "DCWG Singular Genomics G4X"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "singular-genomics-g4x",
+      "contains_full_genetic_sequences": true,
+      "dataset_type": "Singular Genomics G4X",
+      "description": "Singular Genomics G4X",
+      "dir_schema": "singular-genomics-g4x-v2",
+      "is_multiassay": false,
+      "must_contain": [],
+      "pipeline_shorthand": null,
+      "process_state": "primary",
+      "tbl_schema": null,
+      "vitessce_hints": []
+    }
   }
 ]
