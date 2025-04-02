@@ -2860,11 +2860,11 @@
     },
     "value": {
       "active_status": "active",
-      "assaytype": "dbitseq",
+      "assaytype": "dbit-seq",
       "contains_full_genetic_sequences": true,
       "dataset_type": "DBiT-seq",
       "description": "DBiT-seq",
-      "dir_schema": "dbitseq-v2",
+      "dir_schema": "dbit-seq-v2",
       "is_multiassay": false,
       "must_contain": [],
       "pipeline_shorthand": null,
