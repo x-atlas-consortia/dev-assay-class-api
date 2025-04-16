@@ -2918,4 +2918,26 @@
         "pyramid"
       ]
     }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
+      "code": "C202120",
+      "name": "DCWG CosMx"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "cosmx",
+      "contains_full_genetic_sequences": true,
+      "dataset_type": "CosMx",
+      "description": "CosMx",
+      "dir_schema": "cosmx-v2",
+      "is_multiassay": false,
+      "must_contain": [],
+      "pipeline_shorthand": null,
+      "process_state": "primary",
+      "tbl_schema": null,
+      "vitessce_hints": []
+    }
+  }
 ]
