@@ -2851,5 +2851,93 @@
       "tbl_schema": null,
       "vitessce_hints": []
     }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
+      "code": "C202090",
+      "name": "DCWG DBiT-seq"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "dbit-seq",
+      "contains_full_genetic_sequences": true,
+      "dataset_type": "DBiT-seq",
+      "description": "DBiT-seq",
+      "dir_schema": "dbit-seq-v2",
+      "is_multiassay": false,
+      "must_contain": [],
+      "pipeline_shorthand": null,
+      "process_state": "primary",
+      "tbl_schema": null,
+      "vitessce_hints": []
+    }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
+      "code": "C202100",
+      "name": "DCWG Singular Genomics G4X"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "singular-genomics-g4x",
+      "contains_full_genetic_sequences": true,
+      "dataset_type": "Singular Genomics G4X",
+      "description": "Singular Genomics G4X",
+      "dir_schema": "singular-genomics-g4x-v2",
+      "is_multiassay": false,
+      "must_contain": [],
+      "pipeline_shorthand": null,
+      "process_state": "primary",
+      "tbl_schema": null,
+      "vitessce_hints": []
+    }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
+      "code": "C202110",
+      "name": "derived geomx_ngs"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "geomx_ngs",
+      "contains_full_genetic_sequences": false,
+      "dataset_type": "GeoMx (NGS)",
+      "description": "GeoMx (NGS) [AnnData]",
+      "dir_schema": null,
+      "is_multiassay": true,
+      "must_contain": [],
+      "pipeline_shorthand": "AnnData",
+      "process_state": "derived",
+      "tbl_schema": null,
+      "vitessce_hints": [
+        "geomx",
+        "is_image",
+        "pyramid"
+      ]
+    }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
+      "code": "C202120",
+      "name": "DCWG CosMx"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "cosmx",
+      "contains_full_genetic_sequences": true,
+      "dataset_type": "CosMx",
+      "description": "CosMx",
+      "dir_schema": "cosmx-v2",
+      "is_multiassay": false,
+      "must_contain": [],
+      "pipeline_shorthand": null,
+      "process_state": "primary",
+      "tbl_schema": null,
+      "vitessce_hints": []
+    }
   }
 ]
