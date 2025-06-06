@@ -2902,15 +2902,15 @@
     "rule_description": {
       "application_context": "HUBMAP",
       "code": "C202120",
-      "name": "DCWG CosMx"
+      "name": "DCWG CosMx Transcriptomics"
     },
     "value": {
       "active_status": "active",
-      "assaytype": "cosmx",
+      "assaytype": "cosmx_transcriptomics",
       "contains_full_genetic_sequences": true,
-      "dataset_type": "CosMx",
-      "description": "CosMx",
-      "dir_schema": "cosmx-v2",
+      "dataset_type": "CosMx Transcriptomics",
+      "description": "CosMx Transcriptomics",
+      "dir_schema": "cosmx-transcriptomics-v2",
       "is_multiassay": false,
       "must_contain": [],
       "pipeline_shorthand": null,
@@ -2965,5 +2965,26 @@
       "tbl_schema": null,
       "vitessce_hints": []
     }
-  }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
+      "code": "C202150",
+      "name": "DCWG CosMx Proteomics"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "cosmx_proteomics",
+      "contains_full_genetic_sequences": true,
+      "dataset_type": "CosMx Proteomics",
+      "description": "CosMx Proteomics",
+      "dir_schema": "cosmx-proteomics-v2",
+      "is_multiassay": false,
+      "must_contain": [],
+      "pipeline_shorthand": null,
+      "process_state": "primary",
+      "tbl_schema": null,
+      "vitessce_hints": []
+    }
+  },
 ]
