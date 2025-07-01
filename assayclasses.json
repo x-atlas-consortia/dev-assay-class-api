@@ -2996,7 +2996,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "facs",
-      "contains_full_genetic_sequences": true,
+      "contains_full_genetic_sequences": false,
       "dataset_type": "FACS",
       "description": "FACS",
       "dir_schema": "facs-v2",
