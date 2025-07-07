@@ -2146,6 +2146,27 @@
   {
     "rule_description": {
       "application_context": "HUBMAP",
+      "code": "C200970",
+      "name": "DCWG cycif"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "cycif",
+      "contains_full_genetic_sequences": false,
+      "dataset_type": "CyCIF",
+      "description": "CyCIF",
+      "dir_schema": "cycif-v2",
+      "is_multiassay": false,
+      "must_contain": [],
+      "pipeline_shorthand": null,
+      "process_state": "primary",
+      "tbl_schema": null,
+      "vitessce_hints": []
+    }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
       "code": "C200980",
       "name": "DCWG merfish"
     },
