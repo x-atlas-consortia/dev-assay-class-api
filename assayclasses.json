@@ -1679,7 +1679,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "visium-with-probes",
-      "contains_full_genetic_sequences": true,
+      "contains_full_genetic_sequences": false,
       "dataset_type": "Visium (with probes)",
       "description": "Visium (with probes)",
       "dir_schema": "visium-with-probes-v3",
@@ -2773,7 +2773,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "xenium",
-      "contains_full_genetic_sequences": true,
+      "contains_full_genetic_sequences": false,
       "dataset_type": "Xenium",
       "description": "Xenium",
       "dir_schema": "xenium-v3",
@@ -2861,7 +2861,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "dbit-seq",
-      "contains_full_genetic_sequences": true,
+      "contains_full_genetic_sequences": false,
       "dataset_type": "DBiT-seq",
       "description": "DBiT-seq",
       "dir_schema": "dbit-seq-v2",
@@ -2928,7 +2928,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "cosmx_transcriptomics",
-      "contains_full_genetic_sequences": true,
+      "contains_full_genetic_sequences": false,
       "dataset_type": "CosMx Transcriptomics",
       "description": "CosMx Transcriptomics",
       "dir_schema": "cosmx-transcriptomics-v2",
@@ -2996,7 +2996,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "cosmx_proteomics",
-      "contains_full_genetic_sequences": true,
+      "contains_full_genetic_sequences": false,
       "dataset_type": "CosMx Proteomics",
       "description": "CosMx Proteomics",
       "dir_schema": "cosmx-proteomics-v2",
@@ -3028,5 +3028,50 @@
       "tbl_schema": null,
       "vitessce_hints": []
     }
-  }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
+      "code": "C202170",
+      "name": "derived xenium"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "xenium",
+      "contains_full_genetic_sequences": false,
+      "dataset_type": "Xenium",
+      "description": "Xenium [SpatialData + Scanpy]",
+      "dir_schema": null,
+      "is_multiassay": false,
+      "must_contain": [],
+      "pipeline_shorthand": "SpatialData + Scanpy",
+      "process_state": "derived",
+      "tbl_schema": null,
+      "vitessce_hints": [
+        "xenium",
+        "is_image"
+      ]
+    }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
+      "code": "C202180",
+      "name": "DCWG Olink"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "olink",
+      "contains_full_genetic_sequences": false,
+      "dataset_type": "Olink",
+      "description": "Olink",
+      "dir_schema": "olink-v2",
+      "is_multiassay": false,
+      "must_contain": [],
+      "pipeline_shorthand": null,
+      "process_state": "primary",
+      "tbl_schema": null,
+      "vitessce_hints": []
+    }
+  },
 ]

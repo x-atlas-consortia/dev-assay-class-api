@@ -1,0 +1,31 @@
+name: Validate JSON Files
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Validate JSON files
+      run: |
+        python -c "
+        import json, sys
+        has_errors = False
+        try:
+          with open('assayclasses.json') as f:
+            json.load(f)
+          print('valid JSON')
+        except Exception as e:
+          print(f'Invalid JSON, error: {e}')
+          sys.exit(1)
+        "
+      env:
+        # Set to fail on empty files if desired
+        STRICT_MODE: "true"
