@@ -1679,7 +1679,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "visium-with-probes",
-      "contains_full_genetic_sequences": true,
+      "contains_full_genetic_sequences": false,
       "dataset_type": "Visium (with probes)",
       "description": "Visium (with probes)",
       "dir_schema": "visium-with-probes-v3",
@@ -2773,7 +2773,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "xenium",
-      "contains_full_genetic_sequences": true,
+      "contains_full_genetic_sequences": false,
       "dataset_type": "Xenium",
       "description": "Xenium",
       "dir_schema": "xenium-v3",
@@ -2861,7 +2861,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "dbit-seq",
-      "contains_full_genetic_sequences": true,
+      "contains_full_genetic_sequences": false,
       "dataset_type": "DBiT-seq",
       "description": "DBiT-seq",
       "dir_schema": "dbit-seq-v2",
@@ -2928,7 +2928,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "cosmx_transcriptomics",
-      "contains_full_genetic_sequences": true,
+      "contains_full_genetic_sequences": false,
       "dataset_type": "CosMx Transcriptomics",
       "description": "CosMx Transcriptomics",
       "dir_schema": "cosmx-transcriptomics-v2",
