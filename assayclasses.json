@@ -3073,5 +3073,26 @@
       "tbl_schema": null,
       "vitessce_hints": []
     }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
+      "code": "C202190",
+      "name": "DCWG SeqScope"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "seqscope",
+      "contains_full_genetic_sequences": false,
+      "dataset_type": "SeqScope",
+      "description": "SeqScope",
+      "dir_schema": "seq-scope-v2",
+      "is_multiassay": false,
+      "must_contain": [],
+      "pipeline_shorthand": null,
+      "process_state": "primary",
+      "tbl_schema": null,
+      "vitessce_hints": []
+    }
   }
 ]
