@@ -3121,7 +3121,7 @@
   {
     "rule_description": {
       "application_context": "HUBMAP",
-      "code": "C202130",
+      "code": "C202210",
       "name": "derived RNAseq w/ Probes"
     },
     "value": {
