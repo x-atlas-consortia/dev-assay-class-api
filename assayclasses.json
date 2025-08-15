@@ -3094,5 +3094,52 @@
       "tbl_schema": null,
       "vitessce_hints": []
     }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
+      "code": "C202200",
+      "name": "EPIC dataset Object x Analyte"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "object-x-analyte",
+      "contains_full_genetic_sequences": false,
+      "dataset_type": "Object x Analyte",
+      "description": "Object x Analyte",
+      "dir_schema": "object-x-analyte-v2",
+      "is_multiassay": false,
+      "must_contain": [],
+      "pipeline_shorthand": null,
+      "process_state": "epic",
+      "tbl_schema": null,
+      "vitessce_hints": [
+        "epic"
+      ]
+    }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
+      "code": "C202210",
+      "name": "derived RNAseq w/ Probes"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "rna_with_probes",
+      "contains_full_genetic_sequences": false,
+      "dataset_type": "RNAseq (with probes)",
+      "description": "RNAseq (with probes) [BWA + Scanpy]",
+      "dir_schema": null,
+      "is_multiassay": false,
+      "must_contain": [],
+      "pipeline_shorthand": "BWA + Scanpy",
+      "process_state": "derived",
+      "tbl_schema": null,
+      "vitessce_hints": [
+        "rna",
+        "is_sc"
+      ]
+    }
   }
 ]
