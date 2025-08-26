@@ -3141,5 +3141,71 @@
         "is_sc"
       ]
     }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
+      "code": "C202220",
+      "name": "DCWG Visium HD"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "visium-hd",
+      "contains_full_genetic_sequences": false,
+      "dataset_type": "Visium HD",
+      "description": "Visium HD",
+      "dir_schema": "visium-hd-v2",
+      "is_multiassay": true,
+      "must_contain": [
+        "RNAseq (with probes)",
+        "Histology"
+      ],
+      "pipeline_shorthand": null,
+      "process_state": "primary",
+      "tbl_schema": null,
+      "vitessce_hints": []
+    }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
+      "code": "C202230",
+      "name": "DCWG MPLEx"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "mplex",
+      "contains_full_genetic_sequences": false,
+      "dataset_type": "MPLEx",
+      "description": "MPLEx",
+      "dir_schema": "mplex-v2",
+      "is_multiassay": false,
+      "must_contain": [],
+      "pipeline_shorthand": null,
+      "process_state": "primary",
+      "tbl_schema": null,
+      "vitessce_hints": []
+    }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
+      "code": "C202240",
+      "name": "DCWG Pixel-seqV2"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "pixel-seqv2",
+      "contains_full_genetic_sequences": true,
+      "dataset_type": "Pixel-seqV2",
+      "description": "Pixel-seqV2",
+      "dir_schema": "pixel-seqv2-v2",
+      "is_multiassay": false,
+      "must_contain": [],
+      "pipeline_shorthand": null,
+      "process_state": "primary",
+      "tbl_schema": null,
+      "vitessce_hints": []
+    }
   }
 ]
