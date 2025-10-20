@@ -3207,5 +3207,26 @@
       "tbl_schema": null,
       "vitessce_hints": []
     }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
+      "code": "C202250",
+      "name": "DCWG 4i"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "4i",
+      "contains_full_genetic_sequences": false,
+      "dataset_type": "4i",
+      "description": "4i",
+      "dir_schema": "4i-v2",
+      "is_multiassay": false,
+      "must_contain": [],
+      "pipeline_shorthand": null,
+      "process_state": "primary",
+      "tbl_schema": null,
+      "vitessce_hints": []
+    }
   }
 ]
