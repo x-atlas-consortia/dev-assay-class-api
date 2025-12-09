@@ -3228,5 +3228,68 @@
       "tbl_schema": null,
       "vitessce_hints": []
     }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
+      "code": "C202260",
+      "name": "DCWG Raman Imaging"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "raman-imaging",
+      "contains_full_genetic_sequences": false,
+      "dataset_type": "Raman Imaging",
+      "description": "Raman Imaging",
+      "dir_schema": "raman-imaging-v2",
+      "is_multiassay": false,
+      "must_contain": [],
+      "pipeline_shorthand": null,
+      "process_state": "primary",
+      "tbl_schema": null,
+      "vitessce_hints": []
+    }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
+      "code": "C202270",
+      "name": "DCWG STARmap"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "starmap",
+      "contains_full_genetic_sequences": false,
+      "dataset_type": "STARmap",
+      "description": "STARmap",
+      "dir_schema": "starmap-v2",
+      "is_multiassay": false,
+      "must_contain": [],
+      "pipeline_shorthand": null,
+      "process_state": "primary",
+      "tbl_schema": null,
+      "vitessce_hints": []
+    }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
+      "code": "C202280",
+      "name": "DCWG 10x Flex"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "10x-flex",
+      "contains_full_genetic_sequences": true,
+      "dataset_type": "RNAseq (with probes)",
+      "description": "10x Flex",
+      "dir_schema": "rnaseq-with-probes-v2",
+      "is_multiassay": false,
+      "must_contain": [],
+      "pipeline_shorthand": null,
+      "process_state": "primary",
+      "tbl_schema": null,
+      "vitessce_hints": []
+    }
   }
 ]
