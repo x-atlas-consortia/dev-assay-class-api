@@ -3291,5 +3291,47 @@
       "tbl_schema": null,
       "vitessce_hints": []
     }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
+      "code": "C202290",
+      "name": "DCWG iCLAP"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "iclap",
+      "contains_full_genetic_sequences": false,
+      "dataset_type": "iCLAP",
+      "description": "iCLAP",
+      "dir_schema": "iclap-v2",
+      "is_multiassay": false,
+      "must_contain": [],
+      "pipeline_shorthand": null,
+      "process_state": "primary",
+      "tbl_schema": null,
+      "vitessce_hints": []
+    }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
+      "code": "C202300",
+      "name": "DCWG COMET"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "comet",
+      "contains_full_genetic_sequences": false,
+      "dataset_type": "COMET",
+      "description": "COMET",
+      "dir_schema": "comet-v2",
+      "is_multiassay": false,
+      "must_contain": [],
+      "pipeline_shorthand": null,
+      "process_state": "primary",
+      "tbl_schema": null,
+      "vitessce_hints": []
+    }
   }
 ]
