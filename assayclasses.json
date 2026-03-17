@@ -1489,7 +1489,8 @@
       "tbl_schema": null,
       "vitessce_hints": [
         "rna",
-        "is_sc"
+        "is_sc",
+        "spatial"
       ]
     }
   },
