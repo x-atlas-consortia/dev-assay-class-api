@@ -40,7 +40,8 @@
       "tbl_schema": null,
       "vitessce_hints": [
         "is_support",
-        "pyramid"
+        "pyramid",
+        "spatial"
       ]
     }
   },
@@ -129,7 +130,8 @@
         "is_tiled",
         "is_image",
         "anndata",
-        "sprm"
+        "sprm",
+        "spatial"
       ]
     }
   },
@@ -197,7 +199,8 @@
         "anndata",
         "codex",
         "is_tiled",
-        "is_image"
+        "is_image",
+        "spatial"
       ]
     }
   },
@@ -223,7 +226,8 @@
         "json_based",
         "codex",
         "is_tiled",
-        "is_image"
+        "is_image",
+        "spatial"
       ]
     }
   },
@@ -249,7 +253,8 @@
         "is_tiled",
         "is_image",
         "anndata",
-        "sprm"
+        "sprm",
+        "spatial"
       ]
     }
   },
@@ -315,7 +320,8 @@
       "tbl_schema": null,
       "vitessce_hints": [
         "is_support",
-        "pyramid"
+        "pyramid",
+        "spatial"
       ]
     }
   },
@@ -340,7 +346,8 @@
       "vitessce_hints": [
         "is_support",
         "pyramid",
-        "is_image"
+        "is_image",
+        "spatial"
       ]
     }
   },
@@ -406,7 +413,8 @@
       "tbl_schema": null,
       "vitessce_hints": [
         "is_support",
-        "pyramid"
+        "pyramid",
+        "spatial"
       ]
     }
   },
@@ -430,7 +438,8 @@
       "tbl_schema": null,
       "vitessce_hints": [
         "is_support",
-        "pyramid"
+        "pyramid",
+        "spatial"
       ]
     }
   },
@@ -604,7 +613,8 @@
       "vitessce_hints": [
         "is_support",
         "maldi",
-        "pyramid"
+        "pyramid",
+        "spatial"
       ]
     }
   },
@@ -651,7 +661,8 @@
         "anndata",
         "sprm",
         "is_tiled",
-        "is_image"
+        "is_image",
+        "spatial"
       ]
     }
   },
@@ -696,7 +707,8 @@
       "tbl_schema": null,
       "vitessce_hints": [
         "is_support",
-        "pyramid"
+        "pyramid",
+        "spatial"
       ]
     }
   },
@@ -831,7 +843,8 @@
       "tbl_schema": null,
       "vitessce_hints": [
         "is_support",
-        "pyramid"
+        "pyramid",
+        "spatial"
       ]
     }
   },
@@ -856,7 +869,8 @@
       "vitessce_hints": [
         "segmentation_mask",
         "is_image",
-        "pyramid"
+        "pyramid",
+        "spatial"
       ]
     }
   },
@@ -1276,7 +1290,8 @@
       "tbl_schema": null,
       "vitessce_hints": [
         "is_support",
-        "pyramid"
+        "pyramid",
+        "spatial"
       ]
     }
   },
@@ -1474,7 +1489,8 @@
       "tbl_schema": null,
       "vitessce_hints": [
         "rna",
-        "is_sc"
+        "is_sc",
+        "spatial"
       ]
     }
   },
@@ -2621,7 +2637,8 @@
         "anndata",
         "sprm",
         "is_tiled",
-        "is_image"
+        "is_image",
+        "spatial"
       ]
     }
   },
@@ -2806,7 +2823,8 @@
       "vitessce_hints": [
         "segmentation_mask",
         "is_image",
-        "pyramid"
+        "pyramid",
+        "spatial"
       ]
     }
   },
@@ -2915,7 +2933,8 @@
       "vitessce_hints": [
         "geomx",
         "is_image",
-        "pyramid"
+        "pyramid",
+        "spatial"
       ]
     }
   },
@@ -3049,7 +3068,8 @@
       "tbl_schema": null,
       "vitessce_hints": [
         "xenium",
-        "is_image"
+        "is_image",
+        "spatial"
       ]
     }
   },
