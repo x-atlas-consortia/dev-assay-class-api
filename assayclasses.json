@@ -3374,5 +3374,47 @@
       "tbl_schema": null,
       "vitessce_hints": []
     }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
+      "code": "C202320",
+      "name": "DCWG Illumina Spatial ver0"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "illumina_spatial_ver0",
+      "contains_full_genetic_sequences": false,
+      "dataset_type": "Illumina Spatial ver0",
+      "description": "Illumina Spatial ver0",
+      "dir_schema": "illumina-spatial-ver0-v2",
+      "is_multiassay": false,
+      "must_contain": [],
+      "pipeline_shorthand": null,
+      "process_state": "primary",
+      "tbl_schema": null,
+      "vitessce_hints": []
+    }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
+      "code": "C202330",
+      "name": "DCWG DICOM-MRI"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "dicom-mri",
+      "contains_full_genetic_sequences": false,
+      "dataset_type": "DICOM-MRI",
+      "description": "DICOM-MRI",
+      "dir_schema": "dicom-mri-v2",
+      "is_multiassay": false,
+      "must_contain": [],
+      "pipeline_shorthand": null,
+      "process_state": "primary",
+      "tbl_schema": null,
+      "vitessce_hints": []
+    }
   }
 ]
