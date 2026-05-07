@@ -3098,14 +3098,14 @@
     "rule_description": {
       "application_context": "HUBMAP",
       "code": "C202190",
-      "name": "DCWG SeqScope"
+      "name": "DCWG Seq-Scope"
     },
     "value": {
       "active_status": "active",
-      "assaytype": "seqscope",
+      "assaytype": "seq-scope",
       "contains_full_genetic_sequences": false,
-      "dataset_type": "SeqScope",
-      "description": "SeqScope",
+      "dataset_type": "Seq-Scope",
+      "description": "Seq-Scope",
       "dir_schema": "seq-scope-v2",
       "is_multiassay": false,
       "must_contain": [],
