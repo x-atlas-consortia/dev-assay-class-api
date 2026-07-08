@@ -3447,7 +3447,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "paired-tag",
-      "contains_full_genetic_sequences": truek,
+      "contains_full_genetic_sequences": true,
       "dataset_type": "Paired-Tag",
       "description": "Paired-Tag",
       "dir_schema": "paired-tag-v2",
