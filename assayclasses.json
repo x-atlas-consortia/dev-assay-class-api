@@ -3437,5 +3437,29 @@
       "tbl_schema": null,
       "vitessce_hints": []
     }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
+      "code": "C202350",
+      "name": "DCWG Paired-Tag"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "paired-tag",
+      "contains_full_genetic_sequences": truek,
+      "dataset_type": "Paired-Tag",
+      "description": "Paired-Tag",
+      "dir_schema": "paired-tag-v2",
+      "is_multiassay": true,
+      "must_contain": [
+        "ATACseq",
+        "RNAseq"
+      ],
+      "pipeline_shorthand": null,
+      "process_state": "primary",
+      "tbl_schema": null,
+      "vitessce_hints": []
+    }
   }
 ]
