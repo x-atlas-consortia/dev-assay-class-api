@@ -1853,7 +1853,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "scRNAseq-visium-with-probes",
-      "contains_full_genetic_sequences": true,
+      "contains_full_genetic_sequences": false,
       "dataset_type": "RNAseq (with probes)",
       "description": "Visium RNAseq (with probes)",
       "dir_schema": "rnaseq-with-probes-v2",
@@ -2748,7 +2748,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "geomx-rnaseq-with-probes",
-      "contains_full_genetic_sequences": true,
+      "contains_full_genetic_sequences": false,
       "dataset_type": "RNAseq (with probes)",
       "description": "GeoMx RNAseq (with probes)",
       "dir_schema": "rnaseq-with-probes-v2",
@@ -2769,7 +2769,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "scRNAseq-with-probes",
-      "contains_full_genetic_sequences": true,
+      "contains_full_genetic_sequences": false,
       "dataset_type": "RNAseq (with probes)",
       "description": "RNAseq (with probes)",
       "dir_schema": "rnaseq-with-probes-v2",
@@ -3300,7 +3300,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "10x-flex",
-      "contains_full_genetic_sequences": true,
+      "contains_full_genetic_sequences": false,
       "dataset_type": "RNAseq (with probes)",
       "description": "10x Flex",
       "dir_schema": "rnaseq-with-probes-v2",
