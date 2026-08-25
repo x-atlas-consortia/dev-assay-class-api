@@ -1719,7 +1719,7 @@
     "value": {
       "active_status": "inactive",
       "assaytype": "geomx_ngs",
-      "contains_full_genetic_sequences": false,
+      "contains_full_genetic_sequences": true,
       "dataset_type": "GeoMx (NGS)",
       "description": "GeoMx (NGS)",
       "dir_schema": "geomx-ngs-v2",
@@ -2748,7 +2748,7 @@
     "value": {
       "active_status": "active",
       "assaytype": "geomx-rnaseq-with-probes",
-      "contains_full_genetic_sequences": false,
+      "contains_full_genetic_sequences": true,
       "dataset_type": "RNAseq (with probes)",
       "description": "GeoMx RNAseq (with probes)",
       "dir_schema": "rnaseq-with-probes-v2",
