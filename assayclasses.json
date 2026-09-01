@@ -3503,5 +3503,26 @@
       "tbl_schema": null,
       "vitessce_hints": []
     }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
+      "code": "C202380",
+      "name": "DCWG snm3C-seq"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "snm3C-seq",
+      "contains_full_genetic_sequences": false,
+      "dataset_type": "snm3C-seq",
+      "description": "snm3C-seq",
+      "dir_schema": "snm3C-seq-v2",
+      "is_multiassay": false,
+      "must_contain": [],
+      "pipeline_shorthand": null,
+      "process_state": "primary",
+      "tbl_schema": null,
+      "vitessce_hints": []
+    }
   }
 ]
