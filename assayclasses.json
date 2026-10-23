@@ -3529,7 +3529,7 @@
     "rule_description": {
       "application_context": "HUBMAP",
       "code": "C202390",
-      "name": "DCWG wes"
+      "name": "DCWG Whole Exome Sequencing (WES)"
     },
     "value": {
       "active_status": "active",
