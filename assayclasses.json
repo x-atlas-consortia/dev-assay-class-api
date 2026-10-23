@@ -3524,5 +3524,26 @@
       "tbl_schema": null,
       "vitessce_hints": []
     }
+  },
+  {
+    "rule_description": {
+      "application_context": "HUBMAP",
+      "code": "C202390",
+      "name": "DCWG wes"
+    },
+    "value": {
+      "active_status": "active",
+      "assaytype": "wes",
+      "contains_full_genetic_sequences": true,
+      "dataset_type": "Whole Exome Sequencing (WES)",
+      "description": "Whole Exome Sequencing (WES)",
+      "dir_schema": "wes-v2",
+      "is_multiassay": false,
+      "must_contain": [],
+      "pipeline_shorthand": null,
+      "process_state": "primary",
+      "tbl_schema": null,
+      "vitessce_hints": []
+    }
   }
 ]
